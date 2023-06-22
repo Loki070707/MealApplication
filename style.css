@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+
+#main-div
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://expertphotography.com/wp-content/uploads/2020/06/diy-food-background.jpg);
+    background-size: cover;
+    overflow-y: scroll;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #c1b7fd;
+    margin-bottom: 0.7%;
+}
+
+#search-div
+{
+    width: 50%;
+    margin: auto;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}
+
+#search-div input
+{
+    height: 40%;
+    width: 50%;
+    margin-right: 1%;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+#search-div button{
+    background-color: #B72322;
+    height: 40%;
+    color: white;
+    margin-right: 10%;
+}
+
+#search-div button:nth-child(odd){
+    width: 30%;
+    font-size: 15px;
+}
+
+#meals-div
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images
+{
+    width: 30%;
+    height: 45vh;
+    margin: 0 1% 2% 1%;
+    border: 1px solid #DFDFDF;
+    padding-bottom: 1%;
+}
+
+.images h4
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FDF3B7;
+    margin: 3%;
+}
+
+.images img
+{
+    width: 100%;
+    height:73%;
+}
+
+.images button
+{
+    background-color: #E0C555;
+    width: 45%;
+    height: 12%;
+    color: #3C2C10;
+    margin-left: 8%;
+    margin-right: 30%;
+}
+
+
+.images a{
+    display: inline-block;
+    width: 10%;
+    height: 8%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+.clicked{
+    background-color: #DFDFDF !important;
+    color: red !important;
+}
+
+.images:hover{
+
+    box-shadow: 2px 2px 2px #DFDFDF,-2px -2px 2px #DFDFDF;
+
+}
+
+.border-circle
+{
+    border-radius: 50px;
+}
+
+.details-page
+{
+    margin: 0 1% 2% 1%;
+    border: 1px solid #DFDFDF;
+    width: 70%;
+    color: white;
+    padding: 1%;
+    height: fit-content;
+}
+
+.details-page h3
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FDF3B7;
+    margin: 3%;
+}
+
+.details-page h5
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FDF3B7;
+    margin: 0 50% 0 5%;
+    display: inline;
+}
+
+.details-page img
+{
+    margin-left: 10%;
+    width: 80%;
+    height:30vh;
+}
